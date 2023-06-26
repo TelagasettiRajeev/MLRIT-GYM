@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Nunito:wght@400;600;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(219, 237, 253);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header > button{
+    font-size: 18px;
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: poppins;
+}
+header > .logo > img{
+    width: 200px;
+}
+
+header > nav > a {
+    font-size: 18px;
+    text-decoration: none;
+    font-family: nunito;
+    color: black;
+    margin: 0px 20px;
+}
+
+header > nav > a:hover{
+    color: red;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+header > nav > a:active{
+    color: blue;
+    font-weight: bold;
+}
+
+.banner{
+    height: 90vh;
+
+    background: rgba(0,0,0,0.6)url('./image1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+}
+
+.banner > h1{
+    font-size: 5rem;
+    font-family: poppins;
+    font-weight: lighter;
+}
+.banner > h3{
+    font-size: 2rem;
+    font-family: poppins;
+    font-weight: lighter;
+}
+
+.quote {
+    height: 200px;
+    background-color: seashell;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-style: italic;
+}
+
+.quote > blockquote > cite{
+    margin-left: 20px;
+    font-style: normal;
+}
+
+.services{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 50px;
+}
+
+.services > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    padding-bottom: 25px;
+    font-weight: lighter;
+}
+
+.services > div > .service > img{
+    width: 500px;
+    height: 350px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+
+
+.firstsec, .secondsec{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
