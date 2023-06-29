@@ -22,8 +22,8 @@ header{
 header > button{
     font-size: 18px;
     padding: 15px 25px;
-    background-color: black;
-    color: white;
+    background-color: orange;
+    color: black;
     border: none;
     cursor: pointer;
     font-family: poppins;
@@ -199,10 +199,12 @@ header > nav > a:hover{
 }
 
 .contact{
-    background-color: rgba(235, 129, 129, 0.9);
+    /* background-color: rgba(235, 129, 129, 0.9); */
+    background-color: #073b4c;
     height: 600px;
     padding: 50px;
     text-align: center;
+
 }
 
 .contact > h1{
@@ -210,7 +212,8 @@ header > nav > a:hover{
     font-family: roboto;
     font-size: 38px;
     margin-bottom: 50px;
-    color: black;
+    color: white 
+    ;
 
 }
 .contact > .three-blocks{
@@ -328,7 +331,7 @@ header > nav > a:hover{
     background-size: cover;
 
 }
-#contact{
+#contact-div{
     background-image: url(https://img.icons8.com/?size=512&id=91298&format=png);
     background-position: center;
     background-repeat: no-repeat;
@@ -398,11 +401,70 @@ header > nav > a:hover{
 
 
 
+/* 
 
 
+.join-now{
+    height: 70vh;
+    background: rgba(0,0,0,0.5)url(https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding: 50px;
+}
+
+.join-now > .join-content{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+} */
 
 
+.video-join{
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-join > .video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+
+}
+
+
+.video-join > h1{
+    color: white;
+    font-size: 32px;
+    font-family: verdana;
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+    
+}
+
+
+.video-join > button{
+    margin-top: 40px;
+    font-size: 24px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 10px 35px;
+    border-radius: 50px;
+}
 
 
 
@@ -411,5 +473,99 @@ header > nav > a:hover{
 
 footer{
     height: 300px;
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+footer > .logo-content > a > i{
+    color: white;
+    font-size: 24px;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+
+
+footer > .logo-content, .address-content, .menu-content{
+    width: 33%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+footer > .logo-content{
+    padding: 40px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer > .logo-content > h1{
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.address-content{
+    padding: 30px;
+}
+
+.address-content > h1 {
+    font-family: roboto;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 20px;
+}
+.address-content > h4{
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.menu-content{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 80px;
+}
+
+.menu-content > h1{
+    font-family: roboto;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.menu-content > a{
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+
+.lastdiv{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+#copyright {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.lastdiv > h3{
+    color: white;
+    font-family: poppins;
+    font-weight: lighter;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+
