@@ -12,7 +12,7 @@ html{
 
 header{
     height: 100px;
-    background-color: rgb(168, 218, 220, 50%);;
+    background-color: rgb(168, 218, 220, 50%);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -78,8 +78,6 @@ header > nav > a:hover{
 .quote {
     
     height: 200px;
-    /* background: rgba(168, 218, 220, 0.5); */
-    /* background-color: rgb(168, 218, 220, 50%); */
     background-color: rgba(215, 226, 211, 0.9);
     background-size: cover;
     background-position: center;
@@ -201,6 +199,217 @@ header > nav > a:hover{
 }
 
 .contact{
-    background-color: rgb(165, 42, 42,90%);
+    background-color: rgba(235, 129, 129, 0.9);
     height: 600px;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact > h1{
+    letter-spacing: 2px;
+    font-family: roboto;
+    font-size: 38px;
+    margin-bottom: 50px;
+    color: black;
+
+}
+.contact > .three-blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.contact > .three-blocks > .block-one,.block-two {
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.contact > .three-blocks > .block-two{
+    width: 35%;
+}
+
+.contact > .three-blocks > .block-one{
+    /* padding: 10px 10px; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 55%;
+}
+
+
+.contact > .three-blocks > .block-one > .div1, .div2, .div3 , .div4{
+    /* border: 2px solid black; */
+    width: 45%;
+    height: 45%;
+    margin: 10px 10px;
+
+}
+
+
+.block-two iframe{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.block-one > .div1, .div2, .div3, .div4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+ .first{
+    width: 120px;
+    height: 120px;
+}
+
+
+.second{
+    height: 150px;
+    /* border: 2px solid red; */
+    text-align: left;
+    padding-left: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.second > h2 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+.second > h4{
+    font-size: 14px;
+    font-family: roboto;
+    font-weight: lighter;
+}
+
+
+
+/* .div3 ,.div1{
+    width: 45%;
+}
+.div2, .div4{
+    width: 30%;
+} */
+#location-data , #mail-data{
+    width: 250px;
+}
+#contact-data, #website-data{
+    width: 250px;
+}
+
+
+
+#location{
+    background-image: url(https://img.icons8.com/?size=512&id=64515&format=png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+
+}
+#website{
+    background-image: url(https://img.icons8.com/?size=512&id=111139&format=png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#contact{
+    background-image: url(https://img.icons8.com/?size=512&id=91298&format=png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#mail{
+    background-image: url(https://img.icons8.com/?size=512&id=GNO9f2CARaea&format=png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.links-block{
+    width: 5%;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.links-block > a > div{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid black; */
+    border-radius: 24px;
+}
+
+.links-block > div > a{
+    cursor: pointer;
+}
+
+.links-block > a > #facebook {
+    background: url(https://img.icons8.com/?size=512&id=uLWV5A9vXIPu&format=png);
+    background-position: center;
+    background-size: cover;
+}
+
+.links-block > a > #instagram{
+    background: url(https://img.icons8.com/?size=512&id=Xy10Jcu1L2Su&format=png);
+    background-position: center;
+    background-size: cover;
+}
+
+.links-block > a >  #twitter{
+    background: url( https://img.icons8.com/?size=512&id=13963&format=png );
+    background-position: center;
+    background-size: cover;
+}
+
+.links-block > a > #linkedin{
+    background: url(https://img.icons8.com/?size=512&id=xuvGCOXi8Wyg&format=png);
+    background-position: center;
+    background-size: cover;
+}
+
+.links-block > a > #youtube {
+    background: url(https://img.icons8.com/?size=512&id=9a46bTk3awwI&format=png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
