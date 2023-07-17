@@ -699,10 +699,12 @@ footer > .logo-content > h1{
 }
 
 
+
 .lastdiv{
     width: 100%;
     text-align: center;
     background-color: black;
+    display: none;
 }
 #copyright {
     text-decoration: none;
