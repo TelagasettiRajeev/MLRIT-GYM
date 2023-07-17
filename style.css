@@ -699,28 +699,3 @@ footer > .logo-content > h1{
 }
 
 
-
-.lastdiv{
-    width: 100%;
-    text-align: center;
-    background-color: black;
-    display: none;
-}
-#copyright {
-    text-decoration: none;
-    color: white;
-    text-decoration: underline;
-    font-style: italic;
-    font-weight: lighter;
-}
-
-.lastdiv > h3{
-    color: white;
-    font-family: poppins;
-    font-weight: lighter;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: bold;
-
-}
-
